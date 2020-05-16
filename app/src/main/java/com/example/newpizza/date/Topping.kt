@@ -7,7 +7,8 @@ import androidx.room.PrimaryKey
 class Topping (
     @PrimaryKey
     val id:Int,
-    val name:String
+    val name:String,
+    val drawableName:String
 )
 /*原資料內容
 @Entity
