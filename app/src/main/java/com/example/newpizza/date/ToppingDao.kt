@@ -9,7 +9,7 @@ interface ToppingDao{
     @Insert
     fun insert(topping: Topping)
     @Query ("select * from topping")
-    fun getAll()
+    fun getAll():List<Topping>
 }
 /*原始資料內容
 @Dao
